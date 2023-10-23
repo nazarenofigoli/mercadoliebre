@@ -43,9 +43,18 @@ body{
 main{
     background-color: #ebebeb;
 }
+main div {
+    font-size: 18px;
+}
+
+.home-descuentos{
+    font-size: 16px;
+    color: #39b54a;
+    }
 
 h3{
     color: #666;
+    font-size: 24px;
 }
 
 footer p{
