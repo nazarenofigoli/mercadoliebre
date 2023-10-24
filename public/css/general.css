@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #EAC926;
+    font-size: 12px ;
+}
+.busqueda{
+margin-left: 20px;
+} 
+
+.hearder-compra{
+    margin-left: 50px;
+}
+
+a {
+    color: black;
+    cursor:pointer;
+}
+.home-logo{
+    width:30%; height:30%;
+    margin-left: 20px;
+}
+
+.burger-menu {
+    background-color: #1259c3;
+    border-radius: 10%;
+    display: inline-block;
+    text-align: center;
+    margin-left: 50%;
+    padding: 3px; 
+    font-size: 30px;   
+    color:white;
+}
+
+footer article{
+    margin-bottom: 50px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+footer p{
+    color: #666;
+    font-size: 12px ;
+}
+
+footer h4{  
+    color: #666;
+}
+
+footer i {
+    color:#1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    }
