@@ -1,3 +1,14 @@
+:root{
+--Amarillo: #EAC926;
+--Azul: #03264C;
+--Celeste: #1259c3;
+--GrisOscuro: #666;
+--GrisClaro: #ebebeb;
+--Verde: #39b54a;
+--Blanco: #fefefe;
+
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,7 +18,7 @@
 }
 
 header{
-    background-color: #EAC926;
+    background-color: var(--Amarillo);
     font-size: 12px ;
 }
 .busqueda{
@@ -28,14 +39,14 @@ a {
 }
 
 .burger-menu {
-    background-color: #1259c3;
+    background-color: var(--Celeste);
     border-radius: 10%;
     display: inline-block;
     text-align: center;
     margin-left: 50%;
     padding: 3px; 
     font-size: 30px;   
-    color:white;
+    color:var(--Blanco);
 }
 
 footer article{
@@ -47,16 +58,16 @@ footer{
     margin-top: 50px;
 }
 footer p{
-    color: #666;
+    color: var(--GrisOscuro);
     font-size: 12px ;
 }
 
 footer h4{  
-    color: #666;
+    color: var(--GrisOscuro);
 }
 
 footer i {
-    color:#1259c3;
+    color:var(--Azul);
     font-size: 2em;
     margin-bottom: 10px;
     }

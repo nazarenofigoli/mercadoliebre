@@ -1,7 +1,15 @@
-
+:root{
+    --Amarillo: #EAC926;
+    --Azul: #03264C;
+    --Celeste: #1259c3;
+    --GrisOscuro: #666;
+    --GrisClaro: #ebebeb;
+    --Verde: #39b54a;
+    --Blanco: #fefefe;
+}
 
 main {
-    background-color: #ebebeb;
+    background-color: var(--GrisClaro);
     width: 100vw;
 }
 
@@ -10,16 +18,16 @@ main div {
 }
 main section article{
     margin: 10px 10px;
-    background-color:white;
+    background-color:var(--Blanco);
 }
 
 .home-descuentos{
     font-size: 16px;
-    color: #39b54a;
+    color: var(--Verde);
 
     }
 
 h3{
-    color: #666;
+    color:var(--GrisOscuro);
     font-size: 24px;
 }
