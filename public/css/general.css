@@ -5,7 +5,7 @@
 --GrisOscuro: #666;
 --GrisClaro: #ebebeb;
 --Verde: #39b54a;
---Blanco: #fefefe;
+--Blanco: #fff;
 
 }
 
@@ -15,18 +15,26 @@
     box-sizing: border-box;
     list-style: none;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.header-enlaces{
+    display: none;
+    margin-left: 8px;
 }
 
 header{
     background-color: var(--Amarillo);
     font-size: 12px ;
+    padding-bottom: 10px;
 }
 .busqueda{
 margin-left: 20px;
 } 
 
+
 .hearder-compra{
-    margin-left: 50px;
+    margin:15px;
+    text-align: center;
 }
 
 a {
@@ -41,12 +49,25 @@ a {
 .burger-menu {
     background-color: var(--Celeste);
     border-radius: 10%;
-    display: inline-block;
+    display: block;
+    width: 40px;
     text-align: center;
-    margin-left: 50%;
-    padding: 3px; 
-    font-size: 30px;   
-    color:var(--Blanco);
+    margin:auto;
+    padding: 5px 5px; 
+    font-size: 23px;   
+    color: var(--Blanco);
+}
+
+@media(min-width:361px){
+    body header{
+        .burger-menu{
+            display: none;
+        }
+        .header-enlaces{
+            display: inline-block;
+        }
+
+    }
 }
 
 footer article{
@@ -67,7 +88,8 @@ footer h4{
 }
 
 footer i {
-    color:var(--Azul);
+    color:var(--Celeste);
     font-size: 2em;
     margin-bottom: 10px;
     }
+

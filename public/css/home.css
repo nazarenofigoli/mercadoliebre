@@ -1,8 +1,18 @@
-
-
 main {
     background-color: var(--GrisClaro);
-    width: 100vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+main section{
+    width: 90%;
+}
+main section h3{
+text-align: center;
+}
+main section h4{
+    color: var(--GrisOscuro);
 }
 
 main div {
@@ -12,7 +22,24 @@ main section article{
     margin: 10px 10px;
     background-color:var(--Blanco);
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    justify-content: center;
+    flex-direction: column;
+    
 }
+main section article i {
+    color: var(--Verde);
+    font-size: 12px;
+} 
+
+.home-info-productos{
+    border-top:var(--GrisClaro) solid 1px;
+    margin: 5px 0px 5px 15px; 
+}
+
+.home-info-productos h4{
+    font-size: 16px;
+}
+
 
 .home-descuentos{
     font-size: 16px;
