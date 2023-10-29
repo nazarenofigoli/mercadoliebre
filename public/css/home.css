@@ -1,12 +1,4 @@
-:root{
-    --Amarillo: #EAC926;
-    --Azul: #03264C;
-    --Celeste: #1259c3;
-    --GrisOscuro: #666;
-    --GrisClaro: #ebebeb;
-    --Verde: #39b54a;
-    --Blanco: #fefefe;
-}
+
 
 main {
     background-color: var(--GrisClaro);
@@ -19,6 +11,7 @@ main div {
 main section article{
     margin: 10px 10px;
     background-color:var(--Blanco);
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 .home-descuentos{
