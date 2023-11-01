@@ -27,7 +27,23 @@
         }
         .header-enlaces{
             display: inline-block;
+            display: flex;
+            justify-content: space-between;
         }
+        .header-enlaces a {
+            margin-right: 4vh;
+        }
+        .lista1{
+            display: flex ;
+            flex-direction: row;
+            margin-left: 2vh;
+            
+        }
+        .lista2{
+            display: flex ;
+            flex-direction: row;
+        }
+
     }
     main section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
@@ -46,6 +62,7 @@
     display: none;
     margin-left: 8px;
 }
+
 
 header{
     background-color: var(--Amarillo);
@@ -71,8 +88,6 @@ a {
     margin-left: 20px;
 }
 
-
-
 footer article{
     margin-bottom: 50px;
 }
@@ -94,5 +109,5 @@ footer i {
     color:var(--Celeste);
     font-size: 2em;
     margin-bottom: 10px;
-    }
+}
 
