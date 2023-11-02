@@ -9,7 +9,7 @@ main section{
     width: 90%;
 }
 main section h3{
-text-align: center;
+margin: 1vh;
 }
 main section h4{
     color: var(--GrisOscuro);
@@ -19,12 +19,14 @@ main div {
     font-size: 18px;
 }
 main section article{
+    display: flex;
     margin: 10px 10px;
     background-color:var(--Blanco);
     justify-content: center;
     flex-direction: column;
     
 }
+
 main section article i {
     color: var(--Verde);
     font-size: 15px;
@@ -58,4 +60,5 @@ main section article i {
 h3{
     color:var(--GrisOscuro);
     font-size: 24px;
+    
 }
