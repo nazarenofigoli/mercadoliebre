@@ -28,13 +28,18 @@ main section article{
 }
 
 main section article i {
-    color: var(--Verde);
-    font-size: 15px;
-    margin: 5px 0px 5px 15px;
+    display:block;
+    color:var(--Verde);
     border: solid 1px;
     border-radius: 50%;
-    padding: 1%;
-} 
+    padding: 5px;
+    font-size: 14px;
+    position: relative;
+    height: 30px;
+    width: 30px;
+    top: -15px;
+    left:80%
+    }
 
 .home-info-productos{
     border-top:var(--GrisClaro) solid 1px;
@@ -48,13 +53,22 @@ main section article i {
 
 .home-info-productos p{
     margin: 5px 0px 5px 15px;
+    
 }
 
+.home-precios-descuentos{
+    display: flex ;
+    flex-direction: row;
+    justify-content: flex-start;
+}
 
+.home-precios{
+    flex:30%;
+}
 .home-descuentos{
     font-size: 16px;
     color: var(--Verde);
-
+    flex:70%;
 }
 
 h3{
