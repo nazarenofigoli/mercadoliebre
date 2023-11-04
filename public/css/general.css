@@ -20,6 +20,20 @@
     color: var(--Blanco);
 }
 
+@media (max-width: 425px) {
+    #buscador i{
+    position: absolute;
+    left: 140px;
+    bottom: 4px;;
+    }
+    #buscador{
+        position: absolute;
+        top: 20px;
+        right: 11px;
+    }
+}
+
+
 @media(min-width:426px){
     body header{
         .burger-menu{
@@ -32,7 +46,6 @@
         }
 
         .header-enlaces{
-            display: inline-block;
             display: flex;
             justify-content: space-between;
         }
@@ -59,10 +72,9 @@
             align-items: center; 
             margin-bottom: 4vh;
         }
-        
-
-
     }
+
+    
     main section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
         width: 44%;
@@ -83,13 +95,9 @@
     justify-content: space-between;
     }
 
-    .home-logo{
-        width:30%;
-
-        
-    }
-
 }
+
+
 
 
 *{
@@ -101,22 +109,12 @@
     text-decoration: none;
 }
 
-header section div img{
-    width:45%
-}
-
-.compra-lupa{
-    width: 45%;
-}
-
 
 .header-enlaces{
     display: none;
     margin-left: 8px;
     margin-bottom: 1vh;
 }
-
-
 
 
 header{
@@ -136,11 +134,9 @@ a {
     color: black;
     cursor:pointer;
 }
-.home-logo{
-    width:50%; height:50%;
-    margin-left: 15px;
+header section img{
+    width:45%;
 }
-
 
 footer article{
     margin-bottom: 50px;
