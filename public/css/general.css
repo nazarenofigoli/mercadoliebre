@@ -23,7 +23,7 @@
 @media (max-width: 425px) {
     #buscador i{
     position: absolute;
-    left: 140px;
+    left: 130px;
     bottom: 4px;;
     }
     #buscador{
@@ -32,7 +32,6 @@
         right: 11px;
     }
 }
-
 
 @media(min-width:426px){
     body header{
@@ -97,9 +96,6 @@
 
 }
 
-
-
-
 *{
     margin: 0px;
     padding: 0px;
@@ -109,13 +105,11 @@
     text-decoration: none;
 }
 
-
 .header-enlaces{
     display: none;
     margin-left: 8px;
     margin-bottom: 1vh;
 }
-
 
 header{
     background-color: var(--Amarillo);
