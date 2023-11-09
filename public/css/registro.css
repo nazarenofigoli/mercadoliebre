@@ -1,0 +1,38 @@
+.registro-main form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.registro-caja1{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+
+}
+
+.registro-caja2{
+    display: flex;
+    gap:25px;
+}
+
+.registro-caja3{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.registro-caja4{
+    display: flex;
+    flex-direction: column;
+    gap: 2px
+    
+}
+
+.registro-caja4 button{
+    border-radius: 5px;
+    background-color: var(--Celeste);
+    color: var(--Blanco);
+    border-color: var(--Celeste)
+}
