@@ -1,3 +1,8 @@
+.login-main input{
+    border-radius: 5px;
+    padding: 2%;
+}
+
 .login-main form{
     display: flex;
     flex-direction: column;
@@ -12,5 +17,7 @@
     border-radius: 5px;
     background-color: var(--Celeste);
     color: var(--Blanco);
-    border-color: var(--Celeste)
+    border-color: var(--Celeste);
+    border-radius: 5px;
+    padding: 2%;
 }

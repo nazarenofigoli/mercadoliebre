@@ -4,6 +4,11 @@
     gap: 40px;
 }
 
+.registro-main input{
+    padding: 3%;
+    border-radius: 5px;
+}
+
 .registro-caja1{
     margin-top: 30px;
     display: flex;
@@ -31,6 +36,7 @@
 }
 
 .registro-caja4 button{
+    padding: 2%;
     border-radius: 5px;
     background-color: var(--Celeste);
     color: var(--Blanco);
