@@ -6,6 +6,7 @@
 --GrisClaro: #ebebeb;
 --Verde: #39b54a;
 --Blanco: #fff;
+--Azul2: #0022AA;
 }
 
 .burger-menu {
@@ -18,7 +19,9 @@
     padding: 5px 5px; 
     font-size: 23px;   
     color: var(--Blanco);
-}
+} 
+
+
 
 @media (max-width: 425px) {
     #buscador i{
@@ -94,6 +97,16 @@
     justify-content: space-between;
     }
 
+    footer section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 30px;
+        margin-left: 45px;
+        margin-right:45px;
+        margin-top: 45px;
+    }
+
 }
 
 *{
@@ -155,3 +168,10 @@ footer i {
     margin-bottom: 10px;
 }
 
+footer section article i{
+    transition: color 1.5s;
+}
+
+footer section article i:hover{
+    color: var(--Amarillo)
+}

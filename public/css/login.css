@@ -20,4 +20,10 @@
     border-color: var(--Celeste);
     border-radius: 5px;
     padding: 2%;
+    transition: background-color 2s;
 }
+
+.login-main button:hover{
+    background-color: var(--Azul2) ;
+}
+
