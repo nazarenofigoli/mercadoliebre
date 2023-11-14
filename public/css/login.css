@@ -1,6 +1,6 @@
 .login-main input{
     border-radius: 5px;
-    padding: 2%;
+    padding: 1.5%;
 }
 
 .login-main form{
@@ -10,6 +10,8 @@
     margin-bottom:30px ;
     gap: 30px;
     width: 70%;
+    padding: 1%;
+    width: 35%;
     
 }
 
@@ -19,11 +21,10 @@
     color: var(--Blanco);
     border-color: var(--Celeste);
     border-radius: 5px;
-    padding: 2%;
+    padding: 1%;
     transition: background-color 2s;
 }
 
 .login-main button:hover{
     background-color: var(--Azul2) ;
 }
-

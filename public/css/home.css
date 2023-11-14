@@ -48,18 +48,15 @@ main section article i:hover{
     transform:rotate(-90deg) ;
 }
 
-
-main section article:hover{
-    .descripcion {  display: block;
-}  }
-
-
-.home-info-productos h4{
+.descripcion{
     font-size: 16px;
     margin: 5px 0px 5px 15px;
     display: none;
 }
 
+main section article:hover{
+    .descripcion{  display: block;
+}  }
 
 .home-info-productos p{
     margin: 5px 0px 5px 15px;
